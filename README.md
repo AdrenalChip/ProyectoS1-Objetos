@@ -28,7 +28,5 @@ Se realizaron las siguientes correciones:
 
 2 Un cambio en mi UML, generando herencias de una manera adecuada
 
-3 Elemento de composicion tanto en el UML como en el codigo,indicado con una flecha simple en el UML
-
-4 se generaron 4 subclases en total con componentes de agregacion siguiendo adecuadamente mi UML 
+3 se generaron 4 subclases en total  siguiendo adecuadamente mi UML 
 
