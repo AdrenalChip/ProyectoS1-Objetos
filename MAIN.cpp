@@ -239,12 +239,13 @@ int main(){
             godofredo.set_lifes(10);
     }
 /////////CASO 3 ;USAR COMO PARAMETROS UN ATRIBUTO DE OTRA CLASE PARA UNA CLASE /////////////////////////
-    cout<<"\n Caso 3:Uasar como parametros para una funcion de una atributo, una funcion de otra clase\n";
+    cout<<"\n Caso 3:Usar como parametros para una funcion de una atributo, una funcion de otra clase\n";
     godofredo.set_lifes(hombre.get_damage());
     cout<<"\n Hiciste estos puntos de daños: \n";
     cout<<hombre.get_damage();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////ESTE ES EL PROGRAMA COMO TAL SIN CASOS DE PRUEBA////////////////////////////////////////
+    cout<<"\nFin de los casos de prueba,comienza el programa\n";
     cout<<"\n *Always write numbers except in your name*\n";
     int x=0;
     //Ciclo para no acabar hasta que seseleccione acabar
