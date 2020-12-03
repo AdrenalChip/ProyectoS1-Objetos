@@ -11,6 +11,45 @@ Tiene procesos de seleccion para que el jugador sea el que decida que realizar, 
 
 # Estructura
 Es necesario tener los tres archivos descargados en una misma carpeta, los dos archivos .h, ClaseBichosChungos y PROYECTOCONHERENCIAS, y el .cpp, llamado MAIN.
+# Casos de prueba
+ Este es el caso 1 de prueba en el cual se comprueba que se esten obteniendo e imprimiendo los valores esperados.
+   
+   Guerrero hombre("Jorge");
+            
+            cout<<"\n Esta es tu vida: ";
+            
+            cout<<hombre.get_life();
+            
+            cout<<"\n Esta es tu daño: ";
+            
+            cout<<hombre.get_damage();
+            
+            cout<<"\n Esta es tu magia: ";
+            
+            cout<<hombre.get_magia();
+
+  Caso 2: Busco que se pueda cambiar el valor de la vida recibiendo un numero entero como parametro.
+    
+    Alfredo godofredo("Alfredo");
+    
+    while (godofredo.get_lifes()>0){
+            
+            cout<<"\n La vida de Alfredo Godofredo es\n";
+            
+            cout<<godofredo.get_lifes();
+            
+            godofredo.set_lifes(10);
+    }
+
+
+  Caso 3:Usar como parametros para una funcion de una atributo, una funcion de otra clase.
+    
+    godofredo.set_lifes(hombre.get_damage());
+    
+    cout<<"\n Hiciste estos puntos de daños: \n";
+    
+    cout<<hombre.get_damage();
+
 
 # Consideraciones 
 El programa solo corre en consola,esta hecho con c++ standard por lo que corre en todos los sistemas operativos 
